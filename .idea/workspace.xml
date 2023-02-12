@@ -4,24 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27438e21-1739-4ca5-91cf-ec307802428c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BookShop_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookshop" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/config/DispatcherServletConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/config/SpringMVCConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="27438e21-1739-4ca5-91cf-ec307802428c" name="Changes" comment="DispatcherServlet configured">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/model/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/model/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/model/SaleDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookshop" beforeDir="false" afterPath="$PROJECT_DIR$/bookshop" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +59,11 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.21609196",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -161,11 +168,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676181943207</updated>
-      <workItem from="1676181943390" duration="1038000" />
+      <workItem from="1676181943390" duration="2960000" />
     </task>
+    <task id="LOCAL-00001" summary="DispatcherServlet configured">
+      <created>1676183273475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676183273475</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DispatcherServlet configured" />
+    <option name="LAST_COMMIT_MESSAGE" value="DispatcherServlet configured" />
   </component>
 </project>
