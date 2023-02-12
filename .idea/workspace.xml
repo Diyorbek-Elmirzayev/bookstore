@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BookShop:Web exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27438e21-1739-4ca5-91cf-ec307802428c" name="Changes" comment="DispatcherServlet configured">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/model/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/model/Sale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/model/SaleDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/model/User.java" afterDir="false" />
+    <list default="true" id="27438e21-1739-4ca5-91cf-ec307802428c" name="Changes" comment="models added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/payload/ReqLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/payload/ReqRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/repo/AuthRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/homePage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/signIn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/userCabinet.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookshop" beforeDir="false" afterPath="$PROJECT_DIR$/bookshop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/pdp/controller/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/controller/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/pdp/model/Language.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +33,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,6 +65,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -67,6 +87,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="uz.pdp.repo" />
+      <recent name="uz.pdp.payload" />
+      <recent name="uz.pdp.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JAVA_G17\Spring\BookShop\src\main\java\uz\pdp" />
     </key>
@@ -168,7 +193,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676181943207</updated>
-      <workItem from="1676181943390" duration="2960000" />
+      <workItem from="1676181943390" duration="12450000" />
     </task>
     <task id="LOCAL-00001" summary="DispatcherServlet configured">
       <created>1676183273475</created>
@@ -177,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676183273475</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="models added">
+      <created>1676185573611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676185573611</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +217,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DispatcherServlet configured" />
-    <option name="LAST_COMMIT_MESSAGE" value="DispatcherServlet configured" />
+    <MESSAGE value="models added" />
+    <option name="LAST_COMMIT_MESSAGE" value="models added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/uz/pdp/service/AuthService.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/uz/pdp/repo/AuthRepo.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
